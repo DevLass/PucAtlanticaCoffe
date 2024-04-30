@@ -1,2 +1,2 @@
 # PucAtlanticaCoffe
-An academic project.
+https://devlass.github.io/PucAtlanticaCoffe/
