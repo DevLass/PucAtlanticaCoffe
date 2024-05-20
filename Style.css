@@ -74,3 +74,47 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
+
+@media (max-width: 650px) {
+    #topnavbar {
+        display: none;
+    }
+    #logo, #logo2{
+        width: 150px !important;
+    }
+    #logo2{
+        position: absolute;
+        right: 10%;
+    }
+    #resp_navbarbutton{
+        position: absolute;
+        top: 30%;
+        left: -10%;
+    }
+    p,h1,h2,h3, h4, h5, button, i{
+        margin-left: 50px;
+        /* margin-right: 50px; */
+    }
+    p{
+        margin-right: 50px;
+    }
+    #icons{
+        display: none !important;
+    }
+}
+
+@media (max-width: 750px) {
+    #resp_ods    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media (max-width: 1150px) {
+    #topnavbar-d {
+        display: none;
+    }
+
+}
